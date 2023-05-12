@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>filter</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="imageContainer">
+      <div class="image"></div>
+    </div>
+    <div class="panel">
+      <span class="filterName">blur(<span id="blurValue">0px</span>)</span><input type="range" min="0" max="100" value="0" id="blurFilter"><br>
+      <span class="filterName">brightness(<span id="brightnessValue">100%</span>)</span><input type="range" min="0" max="100" value="100" id="brightnessFilter"><br>
+      <span class="filterName">contrast(<span id="contrastValue">100%</span>)</span><input type="range" min="0" max="100" value="100" id="contrastFilter"><br>
+      <span class="filterName">grayscale(<span id="grayscaleValue">0%</span>)</span><input type="range" min="0" max="100" value="0" id="grayscaleFilter"><br>
+      <span class="filterName">hue-rotate(<span id="hueRotateValue">0deg</span>)</span><input type="range" min="0" max="180" value="0" id="hueRotateFilter"><br>
+      <span class="filterName">invert(<span id="invertValue">0%</span>)</span><input type="range" min="0" max="100" value="0" id="invertFilter"><br>
+      <span class="filterName">opacity(<span id="opacityValue">100%</span>)</span><input type="range" min="0" max="100" value="100" id="opacityFilter"><br>
+      <span class="filterName">saturate(<span id="saturateValue">100%</span>)</span><input type="range" min="0" max="100" value="100" id="saturateFilter"><br>
+      <span class="filterName">sepia(<span id="sepiaValue">100%</span>)</span><input type="range" min="0" max="100" value="100" id="sepiaFilter"><br>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
